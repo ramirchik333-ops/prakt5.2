@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/kinopoisk_black">
+
+    <!-- Логотип / Название -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_title"
+        android:textSize="28sp"
+        android:textColor="@color/kinopoisk_red"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Поле ввода имени -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/btn_enter"
+        android:textColorHint="@color/kinopoisk_dark_gray"
+        android:textColor="@color/kinopoisk_white"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Кнопка "Войти" -->
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_enter"
+        android:backgroundTint="@color/kinopoisk_red" />
+
+</LinearLayout>

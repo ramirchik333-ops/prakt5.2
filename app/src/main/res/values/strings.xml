@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">КиноПоиск API</string>
+    <string name="welcome_title">Добро пожаловать в КиноПоиск</string>
+    <string name="hint_username">Введите ваше имя</string>
+    <string name="btn_enter">Войти</string>
+    <string name="error_empty_name">Имя не может быть пустым!</string>
+    <string name="tab_search">Поиск</string>
+    <string name="tab_saved">Избранное</string>
+    <string name="hint_search_movie">Введите название фильма</string>
+    <string name="btn_search">Найти</string>
+    <string name="btn_save_to_fav">Сохранить в избранное</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="label_year">Год: %1$s</string>
+    <string name="label_rating">Рейтинг: %1$s</string>
+    <string name="label_no_poster">Нет постера</string>
+    <string name="msg_saved_success">Фильм сохранен в избранное!</string>
+    <string name="msg_empty_list">Список пуст</string>
+</resources>
